@@ -1,0 +1,2120 @@
+{
+  "en":{
+    "title": {
+      "market_index":"Rewardbuy Merchant Platform",
+      "market_shop_list":"Shop",
+      "market_product_list":"Product Categories",
+      "index": "",
+      "shop_index":"RewardBuy - ",
+      "index_details": "Product Details",
+      "cart": "Cart",
+      "check_out": "Order Detail",
+      "customer_info": "Order Detail",
+      "order": "My Orders",
+      "order_details": "Order Details",
+      "order_voucher_details": "e-Coupons",
+      "order_voucher_details_tnc": "Description",
+      "order_voucher_details_point": "Shops",
+      "pickup_code": "Pickup QR Code",
+      "thank_you": "Order Confirmation",
+      "tnc": "Terms and Conditions",
+      "privacy_policy": "Privacy Policy"
+    },
+    "error": {
+      "default": {
+        "5512": "Order not found"
+      },
+      "checkout": {
+        "1202": "The date is not available. Please try again.",
+        "1203": "The branch is not available. Please try again",
+        "1204": "The following product is low in stock: {{product_info}}. Please select a smaller quantity before proceeding.",
+        "1205": "The following products are not available: {{product_info}}. Please remove them in your cart before proceeding to payment.",
+        "1206": "The following product is limited to {{max_qty}} quantity per order: {{product_info}} ",
+        "1217": "The order amount has exceeded the transaction limit of the shop, please adjust the order amount.",
+        "1231": "The pickup time is no longer available, please re-select a new time.",
+        "10000": "Please update the latest version to process and restart the mini-app."
+      },
+      "order_history": {
+        "1101": "The order is incorrect, please try again.",
+        "5512": "Order not found"
+      },
+      "order_detail": {
+        "1101": "The order is incorrect, please try again.",
+        "5512": "Order not found"
+      },
+      "redeem_promo_code":{
+        "1301":"no available promocode",
+        "1302":"You have already collected the coupon",
+        "1303":"cannot acquire promocode after promotion finishes"
+      },
+      "code_share": { 
+        "705" : {
+          "content": "please try again later"
+        },
+        "1501" : {
+          "content" : "This e-Coupon has already redeemed.",
+          "buttonText" : "Visit RewardBuy Mall"
+        },
+        "1502" : {
+          "content": "You are transferring this e-Coupon",
+          "buttonText" : "Check now"
+        },
+        "1503" : {
+          "content": "The transfer link is invalid, please contact the share person.",
+          "buttonText" : "Visit RewardBuy Mall"
+        },
+        "1505" : {
+          "content": "The transfer link is invalid, please contact the share person.",
+          "buttonText" : "Visit RewardBuy Mall"
+        },
+        "1506" : {
+          "content": "Failed to transfer, You have reached the limit of transferring coupon"
+        },
+        "1507" : {
+          "content": "This e-Coupon is invalid."
+        },
+        "1508" : {
+          "content": "This e-Coupon has not yet shared",
+          "buttonText": "Visit RewardBuy Mall"
+        },
+        "1509" : {
+          "content": "You are transferring this e-Coupon",
+          "buttonText" : "Check now"
+        },
+        "1599" : {
+          "content" : "Cannot find the e-Coupon, please try again later",
+          "console_msg": "update e-Coupon too many times"
+        }
+      },
+      "common": {
+        "reference_no" : "Reference No.",
+        "popup_default_title" : "System busy, please try again later.",
+        "popup_default_content": "System busy, please try again later.",
+        "action" : {
+          "confirm" : "Confirm",
+          "cancel" : "Cancel"
+        }
+      }
+    },
+    "action": {
+      "cancel": "Cancel",
+      "cancel_back": "Back",
+      "confirm": "OK",
+      "delete": "Delete",
+      "confirm_delete": "Confirm to delete",
+      "confirm_delete_message": "Are you sure to delete this record?",
+      "loading_msg": "Loading...",
+      "loading_end":"Loading Completed",
+      "transaction_loading_msg": "Please wait...",
+      "miniapp_update": {
+          "success_title":"Update Alert",
+          "success_content": "Please update the latest version to process and restart the mini-app.",
+          "fail_title":"Update Failed",
+          "fail_content": "Something went wrong, please try again later."
+      },
+      "clear_cart_popup":{
+        "title":"Start new order?",
+        "content":"Your selection {{shopName}} in the Carts will be removed.",
+        "confirm_btn":"Confirm",
+        "cancel_btn":"Cancel"
+      },
+      "promo_code_error_confirm":"View coupon",
+      "share":{
+        "default":{
+          "title":"RewardBuy Shopping Platform",
+          "desp":"Reward yourself with Good Deals! e-Coupons sales are nowhere far away, coming with products in Staycation, Food, Home & Appliances, Health & Beauty and Pets categories!"
+        },
+        "product_details": {
+          "title":"{product_name}｜AlipayHK RewardBuy Merchant Platform"
+        }
+      }
+    },
+    "maintenance": "System Under Maintenance",
+    "update_fail": "Failed to update",
+    "reference_no": "Reference Number: ",
+    "welcome":"Welcome to the shop of {{shop_name}}",
+    "alipay_name":{
+      "alipayHK":"AlipayHK",
+      "alipay":"Alipay"
+    },
+    "pug": {
+      "partial": {
+        "search": {
+          "search_all":"Search Product/ Shop",
+          "search_product":"Search Product",
+          "search_shop":"Search Shop",
+          "result_suggest_products_title":"Hot Product",
+          "result_suggest_shop_title":"Hot Shop",
+          "result_shops_title":"Shop",
+          "result_items":"Match result: {{result_num}} item(s)",
+          "no_result":"Sorry, we do not have the result you are looking for.",
+          "search_type":[ 
+            {
+              "title": "Product",
+              "type": "PRODUCT"
+            }, {
+              "title": "Shop",
+              "type": "SHOP"
+            }
+          ]
+        },
+        "category":{
+          "item_all":{
+            "title":"All"
+          }
+        },
+        "shop_tag":{
+          "new_shop_title":"New",
+          "hotlist_shop_title":"Hot"
+        },
+        "market_product_list":{
+          "no_result":"No Products"
+        },
+        "market_shop_list":{
+          "no_result":"No Shops",
+          "open_new_shop":{
+            "title":"Interested to open a shop at RewardBuy?",
+            "link":"Free enquiry"
+          }
+        },
+        "index": {
+          "no_result":"There are no product temporarily, please stay tuned",
+          "sold": "Sold",
+          "inactive": "Off shelf",
+          "evoucher": "e-Coupons",
+          "shop_btn":{
+            "shop_info":"Shop info"
+          },
+          "shop_info": {
+              "title": "Merchant Name",
+              "name": "Merchant Name: ",
+              "phone": "Phone Number: ",
+              "email": "Email: "
+          }
+        },
+        "index_details": {
+          "evoucher": "e-Coupons",
+          "add_success": "Add to Cart Successful",
+          "max": "Limited to {{max_qty}} quantity per order.",
+          "product_specification": "Product Specification",
+          "product_description": "Description",
+          "product_terms": "Conditions of use",
+          "product_points": "Shops",
+          "add_to_cart": "Add to Cart",
+          "buy_it_now": "Buy Now",
+          "tab_bar_home":"Home",
+          "tab_bar_cart":"Cart",
+          "sold": "Sold",
+          "not_found": "Please select other products.",
+          "prd_sold_title": "Please select other products."
+        },
+        "cart": {
+          "quantity": "Quantity: ",
+          "remove_confirm_title": "Confirm to delete?",
+          "remove_confirm": "Remove Successful",
+          "cart_list_digital_title":"e-Coupons",
+          "no_product": "No Products in Cart",
+          "see_hot_product": "Browse Hot Products",
+          "continues_shopping": " Continue shopping in {{shop_name}}",
+          "checkout": "Confirm order",
+          "tnc1": "{{Alipay}} accepts no liability for any issues arising from your purchases. Please read the Terms and Conditions of the shop before purchase.",
+          "tnc2": "No refund or return is allowed after confirmation of orders.",
+          "total": "Total:",
+          "total_remark": "*excluding delivery cost",
+          "total_discount": "Discounts:",
+          "promo_box": {
+              "e_stamp": {
+                  "title":"E-stamps Collection:",
+                  "msg_num":"{{stamp_num}} AlipayHK e-stamp will be awarded if you spend HKD{{extra_money}} or more.",
+                  "msg_done":"{{stamp_num}} AlipayHK e-stamps are awarded for your spending of HKD{{money}} or more.",
+                  "remark":"* E-stamp award is subject to your final Order Amount "
+              },
+              "logictic": {
+                  "title": "Delivery cost arrangement:",
+                  "msg_courier":"Delivery：Free delivery for spending of HKD{{amount}}or above. Spend another HKD{{extra_money}} to enjoy free delivery.",
+                  "msg_courier_done":"Delivery: Your spending is over HKD{{amount}} and is qualified for free delivery.",
+                  "msg_courier_to_pay":"Delivery: Cash on delivery",
+                  "msg_courier_other":"Delivery: ",
+                  "msg_courier_free":"Delivery: Free delivery",
+                  "msg_pickup":"Self pick-up: Free self pick-up"
+              }  
+          },
+          "promotion_selected_section":{
+            "promotion_title":"Promotion",
+            "promotion_date_range":"Validaity:",
+            "promotion_promo_code":"Coupon",
+            "promotion_shop_promo":"Shop Promotion",
+            "warn_below_min":"Condition not fulfilled",
+            "warn_only_one_choose":"invalid in conjunction with other offers",
+            "warn_locked":"Not available"
+          }
+        },
+        "check_out": {
+          "input_contact_information": "Please fill in your contact information",
+          "contact_information": "Contact Information",
+          "delivery_method": "Pickup or Delivery",
+          "courier_information": "Delivery Address",
+          "courier_date": "Delivery Date",
+          "courier_time": "Delivery Time",
+          "pickup_information": "Pickup Address",
+          "pickup_date": "Pickup Date",
+          "pickup_time": "Pickup Time",
+          "branches_phone": "Shop Phone No.",
+          "pickup_address": "Shop Address",
+          "pickup_dates": "Pickup Dates",
+          "title_list": {
+            "mr": "Mr",
+            "miss": "Miss",
+            "mrs": "Mrs"
+          },
+          "title_code": {
+            "mr": "mr",
+            "miss": "miss",
+            "mrs": "mrs"
+          },
+          "remark": "Additional Message"
+        },
+        "customer_info": {
+          "please_input_contact_information": "Please fill in your contact information",
+          "lastname": "Last Name",
+          "firstname": "First Name",
+          "title": "Title",
+          "phone": "Phone No.",
+          "email": "Email",
+          "please_choose_delivery_method": "Please choose pickup method",
+          "PICKUP": "Self Pickup",
+          "COURIER": "Delivery",
+          "please_input_pickup_info": "Please input Pickup Info",
+          "please_input_courier_info": "Please input Delivery Info",
+          "pickup_address": "Shop Address",
+          "pickup_date": "Pickup Dates",
+          "pickup_time": "Pickup Time",
+          "please_select_branches": "Please select shop",
+          "address": "Address:",
+          "delivery_date": "Delivery Dates",
+          "delivery_time": "Delivery Time",
+          "delivery_districts": "Districts",
+          "delivery_districts_not_support": "(No delivery service)",
+          "branches_phone": "Phone No.：",
+          "pickup_terms_title": "Pickup Information",
+          "please_select_dates": "Please select date",
+          "please_select_time": "Please select time",
+          "please_select_districts": "Please selecr districts",
+          "please_pickup_within": "Please pick up your item within sevens days from your preferred pickup date",
+          "please_input_courier_address": "Delivery address",
+          "please_input": "Please input",
+          "product_section_title":"Order detail",
+          "digital_product_title":"e-Coupons",
+          "agreement_start": "{{shop_name}} Merchant ",
+          "agreement_tnc": "Terms and Conditions",
+          "agreement_and": " AND the ",
+          "agreement_privacy_policy": "Privacy Policy",
+          "agreement_end": "",
+          "courier_terms_title": "Delivery Information",
+          "next": "Proceed to Checkout",
+          "next_zero": "Confirm Order",
+          "title_list": {
+            "mr": "Mr",
+            "miss": "Miss",
+            "mrs": "Mrs"
+          },
+          "shpping_prd_total": "Product amount",
+          "shpping_cost": "Delivery cost",
+          "shpping_discount": "Delivery discount",
+          "shop_discount": "Shop Promotion",
+          "shop_discount_promocode": "Coupon",
+          "shpping_status": {
+              "free":"Free",
+              "to_pay":"Cash on delivery"
+          },
+          "shpping_total": "Order amount",
+          "remark": "Additional Message(Optional)",
+          "logictic_warning": {
+              "COURIER": "Delivery service is not supported for Partial items",
+              "PICKUP": "Self Pick-up is not supported for Partial items"
+          },
+          "province_city_district": "province / city / district",
+          "province": "province",
+          "city": "city",
+          "district": "district",
+          "please_select_province": "Please select province",
+          "please_select_city": "Please select city",
+          "please_select_district": "Please select district",
+          "please_select_province_city_district": "Please select province / city / district"
+        },
+        "order": {
+          "no_order": "No orders.",
+          "item_product_1": "Total ",
+          "item_product_2": " Product",
+          "item_product_2_multi": " Products",
+          "order_amount": "Order Amount：",
+          "order_id": "Order No.",
+          "pickup_date": "Pickup Date",
+          "order_status": {
+            "COURIER": {
+              "PAID_PENDING": "Paid",
+              "PAID_SHIPMENT_WAIT_FOR_PICKUP": "Pending delivery",
+              "PAID_SHIPMENT_IN_TRANSIT": "In transit",
+              "PAID_SHIPMENT_IN_DELIVERY": "In delivery",
+              "PAID_SHIPMENT_ARRIVED": "Arrived",
+              "PAID_SHIPMENT_CUSTOMER_RECEIVED": "Pick-uped",
+              "PAID_SHIPMENT_CANCELED": "Delivery cancelled",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Delivered",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            },
+            "PICKUP": {
+              "PAID_PENDING": "Paid",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Paid",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            },
+            "ONLINE": {
+              "PAID_PENDING": "Paid",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Pick-uped",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            },
+            "EMAIL": {
+              "PAID_PENDING": "Paid",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Pick-uped",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            }
+          },
+          "promo_apply_btn":"Use now",
+          "promo_apply_btn_locked":"Not available",
+          "promo_apply_btn_redeem":"Used",
+          "promo_apply_btn_expiry":"Expired",
+          "promo_range":"Validaity:",
+          "has_more": "Load More",
+          "tab_title": {
+              "normal_prd_list": "My Orders",
+              "digital_prd_list": "e-Coupons",
+              "ecoupon_list":"Coupons"
+          },
+          "evoucher_active_title":"Active e-Coupons",
+          "evoucher_inactive_title":"Inactive / Transferred e-Coupons",
+          "evoucher_active_no":"No active e-Coupons",
+          "evoucher_inactive_no":"No inactive e-Coupons",
+          "ecoupon_active_title":"Active coupons",
+          "ecoupon_inactive_title":"Inactive coupons",
+          "ecoupon_active_no":"No active coupons",
+          "ecoupon_inactive_no":"No inactive coupons",
+          "redeem_period":"Vaild redemption period：",
+          "state_inactive":{
+            "AVAILABLE":"Expired ",
+            "ALLOCATED":"Expired ",
+            "REDEEMED":"Used",
+            "VOID":"Invalid"
+          }
+        },
+        "order_details": {
+          "order_id": "Order No.:",
+          "contact_information": "Contact Information",
+          "contact_name": "Name",
+          "contact_phone": "Contact No.",
+          "contact_email": "Email",
+          "pickup_information": "Pickup Information",
+          "pickup_address": "Pickup Store Address",
+          "pickup_date": "Pickup Date",
+          "pickup_time": "Pickup Time",
+          "pickup_site_phone": "Phone No.：",
+          "courier_information": "Delivery Information",
+          "courier_address": "Delivery Address",
+          "courier_date": "Delivery Date",
+          "courier_time": "Delivery Time",
+          "courier_name": "Courier Name",
+          "courier_tracking_no": "Tracking No.",
+          "courier_tracking_no_copy": "Copy",
+          "courier_tracking_link": "Tracking Delivery",
+          "courier_tracking_link_click": "Copy",
+          "shop_details_section": {
+            "title":"If you have any pick-up enquires, please contact merchant via the following channels:",
+            "shop_no_label":"Phone number: ",
+            "shop_mail_label":"Email: "
+          },
+          "get_qrcode": "QR code",
+          "view_evoucher_code":"View e-Coupons",
+          "back": "Back",
+          "quantity_unit": "Quantity：",
+          "attributes": "Specification",
+          "order_status": {
+            "COURIER": {
+              "PAID_PENDING": "Paid",
+              "PAID_SHIPMENT_WAIT_FOR_PICKUP": "Pending delivery",
+              "PAID_SHIPMENT_IN_TRANSIT": "In transit",
+              "PAID_SHIPMENT_IN_DELIVERY": "In delivery",
+              "PAID_SHIPMENT_ARRIVED": "Arrived",
+              "PAID_SHIPMENT_CUSTOMER_RECEIVED": "Pick-uped",
+              "PAID_SHIPMENT_CANCELED": "Delivery cancelled",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Delivered",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            },
+            "PICKUP": {
+              "PAID_PENDING": "Paid",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Pick-uped",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            },
+            "ONLINE": {
+              "PAID_PENDING": "Paid",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Paid",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            },
+            "EMAIL": {
+              "PAID_PENDING": "Paid",
+              "PAID_INCOMPLETE": "Paid",
+              "PAID_REDEEMED": "Paid",
+              "REFUNDED": "Refunded",
+              "CANCELED": "Cancelled",
+              "OPEN": "Processing"
+            }
+          },
+          "remark": "Additional Message",
+          "digital_title":"e-Coupons",
+          "shpping_total": "Order amount",
+          "shpping_discount": "Delivery discount",
+          "shop_discount": "Shop Promotion",
+          "shop_discount_promocode": "Coupon",
+          "shpping_prd_total": "Product amount",
+          "shpping_cost": "Delivery cost",
+          "shpping_status": {
+              "free":"Free",
+              "to_pay":"Cash on delivery"
+          },
+          "shop_link_btn":"Shop {shop_name} again"
+        },
+        "order_voucher_details": {
+          "code_copy_btn": "Copy",
+          "code_share_btn": "WhatsApp share",
+          "code_confirm_btn": "Back",
+          "code_copied_msg": "Copied",
+          "code_share": "Transfer e-Coupon ",
+          "tnc":"Description",
+          "redeem_point":"Shops",
+          "popup_guide":"e-Coupons users guide",
+          "redeem_period":"Vaild redemption period：",
+          "transferrableLink": "Transfer link",
+          "cancel_share": "Cancel transfer",
+          "transferrableLinkSuccess": "e-Coupon transfer successfully",
+          "transferrableLinkDescription": "Anyone with access to the link can collect the e-Coupon you sent.",
+          "state_inactive":{
+            "REDEEMED":"E-coupon has been redeemed",
+            "VOID":"E-coupon is invalid",
+            "REFUNDED":"E-coupon has been refunded",
+            "AVAILABLE":"E-coupon has been expired"
+          },
+          "status": {
+            "transferring": "Coupon transferring",
+            "page_transferring": "Coupon transferring",
+            "transferred": "Coupon transferred"
+          },
+          "sharing_button" : {
+            "copy": "Copy",
+            "share": "WhatsApp Share",
+            "cancel": "Cancel transfer"
+          },
+          "cancel_function_content": "Time of Coupon redemption: ",
+          "code_transferred_content": "Coupon has been transferred",
+          "cancelTitle": "Confirm to cancel e-Coupon transfer?",
+          "cancelContent": "Once canceled, the transferable link will be invalid. New e-Coupon will be allocated to your wallet again.",
+          "transferExpiry": "Expiration date of transfer",
+          "code_link_expired_title": "Unsuccessful e-Coupon transfer",
+          "code_link_expired_content": "(No one redeem)",
+          "code_link_latest_share_time": "Latest e-Coupon transfer time:"
+        },
+        "code_share": {
+          "couponTransferable": "Transferable",
+          "mkt_couponTransferable" : "Transferable",
+          "share_condition": "Conditions of use: ",
+          "limit_share_remark": "You only have the last chance to initiate a transfer; if the e-Coupon is not redeemed within valid period, it cannot be transferred again.",
+          "share_rule": 
+          [
+            [
+              {
+                "text": "After clicking \"Confirm Transfer\", please share the link with your friends, and notify your friends to conduct redemption within"
+              },
+              {
+                "text" : " {{share_expiry_days}} days ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text" : "and they will not be able to claim it after the link expired."
+              }
+            ],
+            [
+              {
+                "text" : "The first recipient who clicks the link to confirm redemption will receive the e-Coupon in chronological order."
+              }
+            ],
+            [
+              {
+                "text" : "Your e-Coupon will be temporarily invalid after the sharing is initiated. It will be re-issued to your e-wallet - \"Available e-Coupon\" if no one receives it within "
+              },
+              {
+                "text" : " {{share_expiry_days}} days ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text" : "or you cancelled the sharing."
+              }              
+            ],
+            [
+              {
+                "text" : "You will have"
+              },
+              {
+                "text" : " {{share_limit}} times ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text": "to cancel the transfer, and will not be able to share when the transfer limit is reached."
+              }                            
+            ]
+          ],
+          "confirm": "Confirm transfer coupon ",
+          "confirm_receive": "Confirm redeem",
+          "use_shop": "use shop",
+          "receive_tc": "Conditions of use",
+          "receive_success": "You have successfully redeemed the e-Coupon!",
+          "view_coupon": "View e-Coupon"
+        },
+        "pickup_code": {
+          "show_code": "Please show the QR code to Shop Staff",
+          "back": "Back"
+        },
+        "thank_you":{
+          "finish_payment": "Order is Confirmed. \nThank you for your purchase.",
+          "order_id": "Order No.",
+          "transaction_id": "Transaction No.：",
+          "transaction_date": "Transaction Date：",
+          "pay_amount": "Amount：",
+          "done": "Back to \"My account\"",
+          "back_landing": "Back to {shop_name}"
+        },
+        "load_more": {
+          "load_more": "Load More"
+        },
+        "popup": {
+          "popup_quantity_not_available_soldout": "The following products are out of stock: ",
+          "popup_quantity_not_available_separtor": ", ",
+          "popup_quantity_not_available_remove": ". Please remove them in your cart before proceeding to payment.",
+          "popup_fail_title_default": "Service Unavailable",
+          "popup_payment_fail_title": "Transaction Unsuccessful",
+          "popup_payment_fail_content": "The order was not processed.Please try again.",
+          "popup_customer_info_wrong_phone": "Please provide a valid phone number.",
+          "popup_customer_info_wrong_email": "Please provide a valid email.",
+          "popup_customer_info_delivery_address": "Please provide delivery address.",
+          "popup_customer_info_missing_field": "Please make sure you have filled in all fields.",
+          "popup_customer_info_missing_tnc": "Please choose to agree and accept the Terms and Conditions.",
+          "popup_transaction_error_title": "Abnormal Transaction",
+          "popup_transaction_error_content": "Please check your order history, \nand call our CS hotline if necessary.",
+          "popup_guide":{
+              "title":"e-Coupons users guide",
+              "details":[
+                  {
+                      "guide":"e-Coupon(s) will be automatically saved in \"My account\" > \"e-Coupon\" section in RewardBuy mini-app",
+                      "guide_image":"using-step-1-tc.png"
+                  }, { 
+                      "guide":"You may also check e-Coupon(s) in AlipayHK \"Rewards\" > \"Merchant Privileges\" ",
+                      "guide_image":"using-step-2.png"
+                  }
+              ],
+              "confirm":"Confirm"
+          }
+        },
+        "porom_code_banner":{
+          "promo_redeem_btn":"Collect now",
+          "AMOUNT":{
+            "pormo_title":"Enjoy HKD {{discount}}off",
+            "pormo_subtitle":"Purchase of HKD{{money}}"
+          },
+          "PERCENTAGE":{
+            "pormo_title":"Enjoy {{discount}}% off",
+            "pormo_subtitle":"Purchase of HKD{{money}}"
+          },
+          "popup_title":"Shop Coupon",
+          "popup_tnc_title":"Conditions of use:",
+          "popup_range_title":"Validaity:",
+          "popup_redeem_btn":"Collect now",
+          "popup_success_title":"Collect successfully",
+          "popup_success_msg":"Successfully collect {{shopName}} coupon, and it is added to “My account > Coupon” ", 
+          "popup_success_shop_btn":"Continue shopping", 
+          "popup_success_orderpage_btn":"View My account" 
+
+        },
+        "promotional_msg":{
+          "AMOUNT":{
+            "pormo_title":"Enjoy HKD {{discount}}off",
+            "pormo_subtitle":"Purchase of HKD{{money}}"
+          },
+          "PERCENTAGE":{
+            "pormo_title":"Enjoy {{discount}}% off",
+            "pormo_subtitle":"Purchase of HKD{{money}}"
+          }
+        },
+        "tab_bar": {
+          "textColor" : "#888888",
+          "selectedColor" : "#1b80cf",
+          "defaultBackground" : "#ffffff",
+          "itemArray" : [
+          {
+            "pagePath":"pages/market-list/market-list",
+            "icon": "/static/img/common/tab-home.png",
+            "activeIcon": "/static/img/common/tab-home-active.png",
+            "name": "Home"
+          },
+          {
+            "pagePath":"pages/shop/shop",
+            "icon": "/static/img/common/tab-shop.png",
+            "activeIcon": "/static/img/common/tab-shop-active.png",
+            "name": "Shop"
+          },
+          {
+            "pagePath":"pages/cart/cart",
+            "icon": "/static/img/common/tab-cart.png",
+            "activeIcon": "/static/img/common/tab-cart-active.png",
+            "name": "Cart"
+          },
+          {
+            "pagePath":"pages/order/order",
+            "icon": "/static/img/common/tab-my.png",
+            "activeIcon": "/static/img/common/tab-my-active.png",
+            "name": "My account"
+          }]
+        },
+        "single_shop_tab_bar" : {
+          "defaultBackground" : "#ffffff",
+          "textColor" : "#888888",
+          "selectedColor" : "#1b80cf",
+          "itemArray" : [
+            {
+              "pagePath": "pages/shop-index/shop-index",
+              "icon": "/static/img/common/tab-home.png",
+              "activeIcon": "/static/img/common/tab-home-active.png",
+              "params": "shopid=C2040865",
+              "name": "Home"
+            },
+            {
+              "pagePath" : "pages/cart/cart",
+              "icon": "/static/img/common/tab-cart.png",
+              "activeIcon": "/static/img/common/tab-cart-active.png",
+              "name": "Cart"
+            },
+            {
+              "pagePath":"pages/order/order",
+              "icon": "/static/img/common/tab-my.png",
+              "activeIcon": "/static/img/common/tab-my-active.png",
+              "name": "My account"
+            }
+          ]
+        },
+        "footer": {
+          "cod": "Powered by COD Payment Limited",
+          "tnc": "RewardBuy Merchant Platform T&C",
+          "privacy_policy": "Privacy Policy",
+          "eshoperx":"Powered by RewardBuy Merchant Platform"
+        }
+      }
+    }
+  },
+  "tc":{
+    "title": {
+      "market_index":"好賞買商店平台",
+      "market_shop_list":"商店",
+      "market_product_list":"商品分類",
+      "index": "",
+      "shop_index":"好賞買 - ",
+      "index_details": "產品詳情",
+      "cart": "購物車",
+      "check_out": "訂單詳情",
+      "customer_info": "訂單詳情",
+      "order": "我的賬戶",
+      "order_details": "訂單詳情",
+      "order_voucher_details": "電子禮券",
+      "order_voucher_details_tnc": "使用須知",
+      "order_voucher_details_point": "適用門店",
+      "pickup_code": "取貨二維碼",
+      "thank_you": "訂單確認",
+      "tnc": "條款及細則",
+      "privacy_policy": "私隱政策"
+    },
+    "error": {
+      "default": {
+        "5512": "未找到此紀錄"
+      },
+      "checkout": {
+        "1202": "選擇的日子不正確，請重試。",
+        "1203": "選擇的分店不正確，請重試。",
+        "1204": "{{product_info}}存貨不足，請嘗試減少產品數量。",
+        "1205": "以下產品暫時未能供應: {{product_info}}。請先移除以上產品再前往付款。",
+        "1206": "以下產品一張訂單中最多只可選購{{max_qty}}件: {{product_info}}。",
+        "1217": "訂單金額已超過商店單筆消費上限，請調整訂單金額",
+        "1231": "你所選擇的取貨時間已不適用，請重新選擇時間",
+        "10000": "必須更新小程序的版本才能繼續使用, 請重新啟動"
+      },
+      "order_history": {
+        "1101": "訂單不正確，請重試。",
+        "5512": "未找到此紀錄"
+      },
+      "order_detail": {
+        "1101": "訂單不正確，請重試。",
+        "5512": "未找到此紀錄"
+      },
+      "redeem_promo_code":{
+        "1301":"沒有可用優惠劵。",
+        "1302":"你已領過這張優惠劵。",
+        "1303":"優惠活動已完結。"
+      },
+      "code_share": { 
+        "705" : {
+          "content": "請稍後再試"
+        },
+        "1501" : {
+          "content" : "抱歉！禮券已被領取了",
+          "buttonText" : "前往好賞買購物平台"
+        },
+        "1502" : {
+          "content": "你已在轉贈這張禮券了",
+          "buttonText" : "立即查看"
+        },
+        "1503" : {
+          "content": "轉贈已失效，請聯絡轉贈者",
+          "buttonText" : "前往好賞買購物平台"
+        },
+        "1505" : {
+          "content": "轉贈已失效，請聯絡轉贈者",
+          "buttonText" : "前往好賞買購物平台"
+        },
+        "1506" : {
+          "content": "你已達禮券轉贈/回收上限，不能再轉贈/回收禮券了"
+        },
+        "1507" : {
+          "content": "禮券已失效"
+        },
+        "1508" : {
+          "content": "該禮券還未分享",
+          "buttonText": "前往好賞買購物平台"
+        },
+        "1509" : {
+          "content": "你已在轉贈這張禮券了",
+          "buttonText" : "立即查看"
+        },
+        "1599" : {
+          "content" : "暫時無法獲取禮券資料,請稍後再試",
+          "console_msg": "獲取最新禮券次數超過上限"
+        }
+      },
+      "common": {
+        "reference_no" : "參考編號",
+        "popup_default_title" : "連結已失效",
+        "popup_default_content": "請稍後再試",
+        "action" : {
+          "confirm" : "確定",
+          "cancel" : "取消"
+        }
+      }
+    },
+    "action": {
+      "cancel": "取消",
+      "cancel_back": "返回",
+      "confirm": "確定",
+      "delete": "刪除",
+      "confirm_delete": "確定刪除",
+      "confirm_delete_message": "你是否確定刪除此紀錄？",
+      "loading_msg": "加載中...",
+      "loading_end":"加載已完成",
+      "transaction_loading_msg": "交易進行中，請稍候。",
+      "miniapp_update": {
+          "success_title":"更新提示",
+          "success_content": "必須更新小程序的版本才能繼續使用, 請重新啟動",
+          "fail_title":"更新失敗",
+          "fail_content": "更新時發生錯誤。"
+      },
+      "clear_cart_popup":{
+        "title":"開始新訂單？",
+        "content":"已在購物車的「{{shopName}}」訂單將被清空。",
+        "confirm_btn":"確定",
+        "cancel_btn":"取消"
+      },
+      "promo_code_error_confirm":"查閱優惠劵",
+      "share":{
+        "default":{
+          "title":"好賞買購物平台",
+          "desp":"想買就買！好賞買！我哋為你搜羅各式電子禮券即買即用！大量餐飲住宿、人氣美食、家品電器、保健美容、寵物用品，隨時隨地輕鬆買！"
+        },
+        "product_details": {
+          "title":"{product_name}｜AlipayHK 好賞買購物平台"
+        }
+      }
+    },
+    "maintenance": "系統維護中",
+    "update_fail": "更新失敗",
+    "reference_no": "參考編號：",
+    "welcome":"歡迎到訪{{shop_name}}商店",
+    "alipay_name":{
+      "alipayHK":"AlipayHK",
+      "alipay":"支付寶"
+    },
+    "pug": {
+      "partial": {
+        "search": {
+          "search_all":"搜尋商品 / 商店",
+          "search_product":"搜尋商品",
+          "search_shop":"搜尋商店",
+          "result_suggest_products_title":"熱賣商品​",
+          "result_suggest_shop_title":"熱賣商店",
+          "result_shops_title":"商店",
+          "result_items":"搜尋結果共{{result_num}}項",
+          "no_result":"抱歉，未能找到相關搜尋結果",
+          "search_type":[
+            {
+              "title": "商品",
+              "type": "PRODUCT"
+            }, {
+              "title": "商店",
+              "type": "SHOP"
+            }
+          ]
+        },
+        "category":{
+          "item_all":{
+            "title":"全部"
+          }
+        },
+        "market_product_list":{
+          "no_result":"沒有商品"
+        },
+        "shop_tag":{
+          "new_shop_title":"新店",
+          "hotlist_shop_title":"熱賣"
+        },
+        "market_shop_list":{
+          "no_result":"沒有商店",
+          "open_new_shop":{
+            "title":"有興趣在「好賞買」商戶平台開店?",
+            "link":"按此查詢"
+          }
+        },
+        "index": {
+          "no_result":"暫未有任何商品，敬請期待",
+          "sold": "售罄",
+          "inactive": "已下架",
+          "evoucher": "電子禮券",
+          "shop_btn":{
+            "shop_info":"商店介紹"
+          },
+          "shop_info": {
+              "title": "商店介紹",
+              "name": "商戶名稱：",
+              "phone": "聯絡電話：",
+              "email": "電郵地址："
+          }
+        },
+        "index_details": {
+          "evoucher": "電子禮券",
+          "add_success": "加入購物車成功",
+          "max": "一張訂單中最多只可選購{{max_qty}}件",
+          "product_specification": "產品規格",
+          "product_description": "產品介紹",
+          "product_terms": "使用須知",
+          "product_points": "適用門店",
+          "add_to_cart": "加入購物車",
+          "buy_it_now": "立即購買",
+          "tab_bar_home":"首頁",
+          "tab_bar_cart":"購物車",
+          "sold": "售罄",
+          "not_found": "請選購其他商品。",
+          "prd_sold_title": "請選購其他商品。"
+        },
+        "cart": {
+          "quantity": "數量：",
+          "remove_confirm_title": "確定移除？",
+          "remove_confirm": "貨品將從購物車中移除",
+          "no_product": "購物車暫時未有任何商品 ",
+          "see_hot_product": "看看熱門商品",
+          "continues_shopping": "繼續選購 {{shop_name}} 商店",
+          "cart_list_digital_title":"電子禮券",
+          "checkout": "確認訂單",
+          "tnc1": "以上產品由商戶出售及提供，{{Alipay}}對該等產品的質素及供應量恕不負責。購買前請參閱商戶的條款及細則。",
+          "tnc2": "產品一經購買不設退換貨。",
+          "total": "合計:",
+          "total_remark": "*未含運費",
+          "total_discount": "共減:",
+          "promo_box": {
+              "e_stamp": {
+                  "title": "印花優惠:",
+                  "msg_num":"額外消費多HKD{{extra_money}}，可獲AlipayHK印花{{stamp_num}}個。",
+                  "msg_done":"你的消費滿HKD{{money}}，可獲AlipayHK印花{{stamp_num}}個。",
+                  "remark": "* 印花派送以你的最終訂單金額為準"
+              },
+              "logictic": {
+                  "title": "運費安排:",
+                  "msg_courier":"送貨: 滿HKD{{amount}}免運，額外選購多HKD{{extra_money}}可享免費送貨",
+                  "msg_courier_done":"送貨: 已滿HKD{{amount}}免運金額，可享免費送貨",
+                  "msg_courier_to_pay":"送貨: 貨到付款",
+                  "msg_courier_free":"送貨: 免費送貨",
+                  "msg_courier_other":"送貨: ",
+                  "msg_pickup":"自取: 免費自取"
+              }  
+          },
+          "promotion_selected_section":{
+            "promotion_title":"優惠",
+            "promotion_date_range":"有效期:",
+            "promotion_promo_code":"優惠券",
+            "promotion_shop_promo":"全店優惠",
+            "warn_below_min":"需達指定金額",
+            "warn_only_one_choose":"不可與其他優惠同時使用",
+            "warn_locked":"未可用"
+          }
+        },
+        "check_out": {
+          "input_contact_information": "請填寫聯絡人及收貨資料",
+          "contact_information": "聯絡人資料",
+          "delivery_method": "收貨方法", 
+          "courier_information": "送貨地點",
+          "courier_date": "送貨日期",
+          "courier_time": "送貨時間",
+          "pickup_information": "取貨地點",
+          "pickup_date": "取貨日期",
+          "pickup_time": "取貨時間",
+          "branches_phone": "分店電話：",
+          "pickup_address": "取貨地址",
+          "pickup_dates": "取貨日期",
+          "title_list": {
+            "mr": "先生",
+            "miss": "小姐",
+            "mrs": "女士"
+          },
+          "title_code": {
+            "mr": "mr",
+            "miss": "miss",
+            "mrs": "mrs"
+          },
+          "remark": "其他訊息"
+        },
+        "customer_info": {
+          "please_input_contact_information": "請填寫聯絡人資料",
+          "lastname": "姓氏",
+          "firstname": "名字",
+          "title": "稱謂",
+          "phone": "電話號碼",
+          "email": "電郵地址",
+          "please_choose_delivery_method": "請選擇收貨方法",
+          "PICKUP": "自行取貨",
+          "COURIER": "送貨",
+          "please_input_pickup_info": "請填寫自行取貨資料",
+          "please_input_courier_info": "請填寫送貨資料",
+          "pickup_address": "取貨地點",
+          "pickup_date": "取貨日期",
+          "pickup_time": "取貨時間",
+          "please_select_branches": "請選擇分店",
+          "address": "地址：",
+          "branches_phone": "分店電話：",
+          "pickup_terms_title": "取貨需知",
+          "delivery_date": "送貨日期",
+          "delivery_time": "送貨時間",
+          "delivery_districts": "區域",
+          "delivery_districts_not_support": "(不支援送貨)",
+          "please_select_dates": "請選擇日期",
+          "please_select_time": "請選擇時間",
+          "please_select_districts": "請選擇送貨區域",
+          "please_pickup_within": "請於取貨當天起計7天內取貨",
+          "please_input_courier_address": "送貨地址",
+          "please_input": "請填寫",
+          "product_section_title":"訂單內容",
+          "digital_product_title":"電子禮券",
+          "agreement_start": "{{shop_name}} 商店 ",
+          "agreement_tnc": "條款及細則",
+          "agreement_and": "及",
+          "agreement_privacy_policy": "私隱政策",
+          "agreement_end": "",
+          "courier_terms_title": "送貨需知",
+          "next": "前往付款",
+          "next_zero": "確認訂單",
+          "title_list": {
+            "mr": "先生",
+            "miss": "小姐",
+            "mrs": "女士"
+          },
+          "shpping_prd_total": "商品總額",
+          "shpping_cost": "運費",
+          "shpping_discount": "運費優惠",
+          "shop_discount": "全店優惠",
+          "shop_discount_promocode": "優惠券",
+          "shpping_status": {
+              "free":"免費",
+              "to_pay":"貨到付款"
+          },
+          "shpping_total": "付款總額",
+          "remark": "其他訊息(可選填)",
+          "logictic_warning": {
+              "COURIER": "部分商品未能支援送貨",
+              "PICKUP": "部分商品未能支援自行取貨"
+          },
+          "province_city_district": "省/市/地區",
+          "province": "請選擇省",
+          "city": "請選擇市",
+          "district": "請選擇地區",
+          "please_select_province": "請選擇省",
+          "please_select_city": "請選擇市",
+          "please_select_district": "請選擇地區",
+          "please_select_province_city_district": "請選擇省/市/地區"
+        },
+        "order": {
+          "no_order": "暫未有訂單",
+          "item_product_1": "等",
+          "item_product_2": "件商品",
+          "item_product_2_multi": "件商品",
+          "order_amount": "訂單金額：",
+          "order_id": "訂單編號：",
+          "pickup_date": "取貨日期：",
+          "order_status": {
+            "COURIER": {
+              "PAID_PENDING": "待送貨",
+              "PAID_SHIPMENT_WAIT_FOR_PICKUP": "待發貨",
+              "PAID_SHIPMENT_IN_TRANSIT": "運輸中",
+              "PAID_SHIPMENT_IN_DELIVERY": "派送中",
+              "PAID_SHIPMENT_ARRIVED": "已到達",
+              "PAID_SHIPMENT_CUSTOMER_RECEIVED": "已取貨",
+              "PAID_SHIPMENT_CANCELED": "送貨已取消",
+              "PAID_INCOMPLETE": "待送貨",
+              "PAID_REDEEMED": "已取貨",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            },
+            "PICKUP": {
+              "PAID_PENDING": "待取貨",
+              "PAID_INCOMPLETE": "待取貨",
+              "PAID_REDEEMED": "已取貨",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            },
+            "ONLINE": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            },
+            "EMAIL": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            }
+          },
+          "promo_apply_btn":"立即使用",
+          "promo_apply_btn_locked":"未可用",
+          "promo_apply_btn_redeem":"已使用",
+          "promo_apply_btn_expiry":"已過期",
+          "promo_range":"有效期:",
+          "has_more": "顯示更多",
+          "tab_title": {
+              "normal_prd_list": "我的訂單",
+              "digital_prd_list": "電子禮券",
+              "ecoupon_list":"優惠券"
+          },
+          "evoucher_active_title":"可用電子禮券",
+          "evoucher_inactive_title":"失效 / 轉贈電子禮券",
+          "evoucher_active_no":"暫時未有可用電子禮券",
+          "evoucher_inactive_no":"暫時未有失效電子禮券",
+          "ecoupon_active_title":"可用優惠券",
+          "ecoupon_inactive_title":"失效優惠券",
+          "ecoupon_active_no":"暫時未有可用優惠券",
+          "ecoupon_inactive_no":"暫時未有失效優惠券",
+          "redeem_period":"有效期限：",
+          "state_inactive":{
+            "AVAILABLE":"已過期",
+            "ALLOCATED":"已過期",
+            "REDEEMED":"已使用",
+            "VOID":"已失效"
+          }
+        },
+        "order_details": {
+          "order_id": "訂單編號：",
+          "contact_information": "聯絡人資料",
+          "contact_name": "姓名",
+          "contact_phone": "電話號碼",
+          "contact_email": "電郵地址",
+          "pickup_information": "取貨資料",
+          "pickup_address": "取貨地址",
+          "pickup_date": "取貨日期",
+          "pickup_time": "取貨時間",
+          "pickup_site_phone": "分店電話：",
+          "courier_information": "送貨資料",
+          "courier_address": "送貨地址",
+          "courier_date": "送貨日期",
+          "courier_time": "送貨時間",
+          "courier_name": "送貨服務商",
+          "courier_tracking_no": "物流單號",
+          "courier_tracking_no_copy": "複製",
+          "courier_tracking_link": "追蹤物流網址",
+          "courier_tracking_link_click": "複製",
+          "shop_details_section": {
+            "title":"如需查詢取貨事宜，請透過以下方式聯絡商戶：",
+            "shop_no_label":"聯絡電話：",
+            "shop_mail_label":"電郵地址："
+          },
+          "get_qrcode": "取貨二維碼",
+          "view_evoucher_code":"查看電子禮券",
+          "back": "返回",
+          "quantity_unit": "數量：",
+          "attributes": "產品規格",
+          "order_status": {
+            "COURIER": {
+              "PAID_PENDING": "待送貨",
+              "PAID_SHIPMENT_WAIT_FOR_PICKUP": "待發貨",
+              "PAID_SHIPMENT_IN_TRANSIT": "運輸中",
+              "PAID_SHIPMENT_IN_DELIVERY": "派送中",
+              "PAID_SHIPMENT_ARRIVED": "已到達",
+              "PAID_SHIPMENT_CUSTOMER_RECEIVED": "已取貨",
+              "PAID_SHIPMENT_CANCELED": "送貨已取消",
+              "PAID_INCOMPLETE": "待送貨",
+              "PAID_REDEEMED": "已取貨",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            },
+            "PICKUP": {
+              "PAID_PENDING": "待取貨",
+              "PAID_INCOMPLETE": "待取貨",
+              "PAID_REDEEMED": "已取貨",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            },
+            "ONLINE": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            },
+            "EMAIL": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "處理中"
+            }
+          },
+          "remark": "其他訊息",
+          "digital_title":"電子禮券",
+          "shpping_total": "付款總額",
+          "shpping_discount": "運費優惠",
+          "shop_discount": "全店優惠",
+          "shop_discount_promocode": "優惠券",
+          "shpping_prd_total": "商品總額",
+          "shpping_cost": "運費",
+          "shpping_status": {
+              "free":"免費",
+              "to_pay":"貨到付款"
+          },
+          "shop_link_btn":"再次惠顧 {shop_name} 商店"
+        },
+        "order_voucher_details": {
+          "code_copy_btn": "複製",
+          "code_share_btn": "WhatsApp 分享",
+          "code_confirm_btn": "返回",
+          "code_copied_msg": "已複製",
+          "code_share": "轉贈電子禮券",
+          "tnc":"使用須知",
+          "redeem_point":"適用門店",
+          "popup_guide":"電子禮券教學指南",
+          "cancel_share": "取消轉贈",
+          "redeem_period":"有效期限：",
+          "transferrableLink": "轉贈連結",
+          "transferrableLinkSuccess": "成功發起轉贈",
+          "transferrableLinkDescription": "任何人收到此連結都可收取你的電子禮券。",
+          "status": {
+            "transferring": "已發起轉贈",
+            "page_transferring": "已發起轉贈",
+            "transferred": "完成轉贈"
+          },
+          "state_inactive":{
+            "REDEEMED":"禮券已換領",
+            "VOID":"禮券已失效",
+            "REFUNDED":"禮券已退款",
+            "AVAILABLE":"禮券已過期"
+          },
+          "sharing_button" : {
+            "copy": "複製",
+            "share": "WhatsApp 分享",
+            "cancel": "取消轉贈"
+          },
+          "cancel_function_content": "禮券領取時間: ",
+          "code_transferred_content": "完成轉贈好友",
+          "cancelTitle": "你確定要取消嗎?",
+          "cancelContent": "贈送連結將會失效，你將會重新得到禮券碼。",
+          "transferExpiry": "轉贈連結失效於",
+          "code_link_expired_title": "轉贈不成功",
+          "code_link_expired_content": "(無人領取)",
+          "code_link_latest_share_time": "最近轉贈時間:"
+        },
+        "code_share": {
+          "couponTransferable": "可轉贈好友",
+          "mkt_couponTransferable" : "可轉贈好友",
+          "share_condition": "使用條件: ",
+          "limit_share_remark": "你只有最後1次發起轉贈的機會；如果發起後沒有在有效期限內被領取，禮券將不能再被轉發。",
+          "share_rule": 
+          [
+            [
+              {
+                "text":"確定「發起轉贈」後，請把連結分享給好友，並通知好友在接收後"
+              },
+              {
+                "text" : " {{share_expiry_days}}天 ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text" : "內點撃連結，否則將無法領取"
+              }
+            ],
+            [
+              {
+                "text" : "第一個點撃分享連結，並確定領取的朋友，將會獲得禮券"
+              }
+            ],
+            [
+              {
+                "text" : "發起轉贈後，你的禮券將會失效；如"
+              },
+              {
+                "text" : " {{share_expiry_days}}天 ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text" : "內無人領取， 或你選擇「取消轉贈」，禮券將會重新發回至你的「可用電子禮券」"
+              }              
+            ],
+            [
+              {
+                "text" : "你有"
+              },
+              {
+                "text" : " {{share_limit}}次 ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text": "「取消轉贈」的機會，到達上限後將不可再轉贈"
+              }                            
+            ]
+          ],
+          "confirm": "發起轉贈",
+          "confirm_receive": "確定領取禮券",
+          "use_shop": "適用門店",
+          "receive_tc": "使用條款及細則",
+          "receive_success": "你已成功領取電子禮券！",
+          "view_coupon": "立即查看"
+        },
+        "pickup_code": {
+          "show_code": "取貨時請出示給店員",
+          "back": "返回"
+        },
+        "thank_you":{
+          "finish_payment": "完成訂購，多謝惠顧本店服務",
+          "order_id": "訂單編號：",
+          "transaction_id": "AlipayHK交易編號：",
+          "transaction_date": "繳費日期：",
+          "pay_amount": "已付金額：",
+          "done": "返回我的訂單",
+          "back_landing": "返回 {shop_name}商店"
+        },
+        "load_more": {
+          "load_more": "顯示更多"
+        },
+        "popup": {
+          "popup_quantity_not_available_soldout": "以下產品已售罄: ",
+          "popup_quantity_not_available_separtor": "、",
+          "popup_quantity_not_available_remove": "。請先移除以上產品再前往付款。",
+          "popup_fail_title_default": "服務暫時未能提供",
+          "popup_payment_fail_title": "交易未能成功",
+          "popup_payment_fail_content": "未能成功落單，請重試。",
+          "popup_customer_info_wrong_phone": "請填寫正確的電話號碼。",
+          "popup_customer_info_wrong_email": "請填寫正確的電郵地址。",
+          "popup_customer_info_delivery_address": "請填寫送貨地址。",
+          "popup_customer_info_missing_field": "請確保你已輸入所有資料。",
+          "popup_customer_info_missing_tnc": "在前往下一步前，請同意並接受條款及細則及私隱政策。",
+          "popup_transaction_error_title": "交易異常",
+          "popup_transaction_error_content": "請檢視訂單紀錄確認是否已成功落單；\n或與客戶服務聯絡。",
+          "popup_guide":{
+              "title":"電子禮券查看方法",
+              "details":[
+                  {
+                      "guide":"電子禮券儲存至好賞買小程序「我的賬戶」> 「電子禮券」",
+                      "guide_image":"using-step-1-tc.png"
+                  }, {
+                      "guide":"在AlipayHK 「獎賞」> 「商店禮遇」亦可查看電子禮券",
+                      "guide_image":"using-step-2.png"
+                  }
+              ],
+              "confirm":"確定"
+          }
+        },
+        "porom_code_banner":{
+          "promo_redeem_btn":"立即領券",
+          "AMOUNT":{
+            "pormo_title":"減HKD{{discount}}",
+            "pormo_subtitle":"滿HKD{{money}}使用"
+          },
+          "PERCENTAGE":{
+            "pormo_title":"全店{{discount}}折",
+            "pormo_subtitle":"滿HKD{{money}}即享"
+          },
+          "popup_title":"商店優惠劵",
+          "popup_tnc_title":"使用須知:",
+          "popup_range_title":"有效期:",
+          "popup_redeem_btn":"立即領券",
+          "popup_success_title":"成功換領",
+          "popup_success_msg":"成功換領 {{shopName}} 商店優惠券，並已新增到「我的賬戶 > 優惠券」", 
+          "popup_success_shop_btn":"繼續購物", 
+          "popup_success_orderpage_btn":"查閱我的賬戶" 
+
+        },
+        "promotional_msg":{
+          "AMOUNT":{
+            "pormo_title":"減HKD{{discount}}",
+            "pormo_subtitle":"滿HKD{{money}}使用"
+          },
+          "PERCENTAGE":{
+            "pormo_title":"全店{{discount}}折",
+            "pormo_subtitle":"滿HKD{{money}}即享"
+          }
+        },
+        "tab_bar": {          
+          "defaultBackground" : "#ffffff",
+          "textColor" : "#888888",
+          "selectedColor" : "#1b80cf",
+          "itemArray" : [
+          {
+            "pagePath":"pages/market-list/market-list",
+            "icon": "/static/img/common/tab-home.png",
+            "activeIcon": "/static/img/common/tab-home-active.png",
+            "name": "首頁"
+          },
+          {
+            "pagePath":"pages/shop/shop",
+            "icon": "/static/img/common/tab-shop.png",
+            "activeIcon": "/static/img/common/tab-shop-active.png",
+            "name": "商店"
+          },
+          {
+            "pagePath":"pages/cart/cart",
+            "icon": "/static/img/common/tab-cart.png",
+            "activeIcon": "/static/img/common/tab-cart-active.png",
+            "name": "購物車"
+          },
+          {
+            "pagePath":"pages/order/order",
+            "icon": "/static/img/common/tab-my.png",
+            "activeIcon": "/static/img/common/tab-my-active.png",
+            "name": "我的"
+          }
+        ]},
+        "single_shop_tab_bar" : {
+          "defaultBackground" : "#ffffff",
+          "textColor" : "#888888",
+          "selectedColor" : "#1b80cf",
+          "itemArray" : [
+            {
+              "pagePath": "pages/shop-index/shop-index",
+              "icon": "/static/img/common/tab-home.png",
+              "activeIcon": "/static/img/common/tab-home-active.png",
+              "params": "shopid=C2040865",
+              "name": "首頁"
+            },
+            {
+              "pagePath" : "pages/cart/cart",
+              "icon": "/static/img/common/tab-cart.png",
+              "activeIcon": "/static/img/common/tab-cart-active.png",
+              "name": "購物車"
+            },
+            {
+              "pagePath":"pages/order/order",
+              "icon": "/static/img/common/tab-my.png",
+              "activeIcon": "/static/img/common/tab-my-active.png",
+              "name": "我的"
+            }
+          ]
+        },
+        "footer": {
+          "cod": "Powered by COD Payment Limited",
+          "tnc": "好賞買商戶平台條款及細則",
+          "privacy_policy": "私隠政策",
+          "eshoperx":"Powered by 好賞買商店平台"
+        }
+      }
+    }
+  },
+  "sc":{
+    "title": {
+      "index": "",
+      "market_index" : "好赏买购物平台",
+      "index_details": "产品详情",
+      "cart": "购物车",
+      "check_out": "收货资料",
+      "customer_info": "收货资料",
+      "order": "我的订单",
+      "order_details": "订单详情",
+      "order_voucher_details": "电子礼券",
+      "order_voucher_details_tnc": "使用须知",
+      "order_voucher_details_point": "适用门店",
+      "pickup_code": "取货二维码",
+      "thank_you": "订单确认",
+      "tnc": "条款及细则",
+      "privacy_policy": "私隐政策",
+      "shop_index":"好赏买 - "
+    },
+    "error": {
+      "default": {
+        "5512": "未找到此纪录"
+      },
+      "checkout": {
+        "1202": "选择的日子不正确，请重试。",
+        "1203": "选择的分店不正确，请重试。",
+        "1204": "{{product_info}}存货不足，请尝试减少产品数量。",
+        "1205": "以下产品暂时未能供应: {{product_info}}。请先移除以上产品再前往付款。",
+        "1206": "以下产品一张订单中最多只可选购{{max_qty}}件: {{product_info}}。",
+        "1217": "error1217"
+      },
+      "order_history": {
+        "1101": "订单不正确，请重试。",
+        "5512": "未找到此纪录"
+      },
+      "order_detail": {
+        "1101": "订单不正确，请重试。",
+        "5512": "未找到此纪录"
+      },
+      "redeem_promo_code":{
+        "1301":"没有可用的优惠券。",
+        "1302":"你已领取过这张优惠券。",
+        "1303":"优惠活动已完结。"
+      },
+      "code_share": { 
+        "705" : {
+          "content": "请稍后再试"
+        },
+        "1501" : {
+          "content" : "抱歉！礼券已被领取了",
+          "buttonText" : "前往好赏买购物平台"
+        },
+        "1502" : {
+          "content": "你已在转赠这张礼券了",
+          "buttonText" : "立即查看"
+        },
+        "1503" : {
+          "content": "转赠已失效,请联络转赠者",
+          "buttonText" : "前往好赏买购物平台"
+        },
+        "1505" : {
+          "content": "转赠已失效,请联络转赠者",
+          "buttonText" : "前往好赏买购物平台"
+        },
+        "1506" : {
+          "content": "你已达礼券转赠/回收上限, 不能再转赠/回收礼券了"
+        },
+        "1507" : {
+          "content": "礼券已失效"
+        },
+        "1508" : {
+          "content": "该礼券还未分享",
+          "buttonText": "前往好赏买购物平台"
+        },
+        "1509" : {
+          "content": "你已在转赠这张礼券了",
+          "buttonText" : "立即查看"
+        },
+        "1599" : {
+          "content" : "暂时无法获取礼券资料,请稍后再试",
+          "console_msg": "获取最新礼券次数超过上限"
+        }
+      },
+      "common": {
+        "reference_no" : "参考编号",
+        "popup_default_title": "链接已失效",
+        "popup_default_content": "请稍后再试",
+        "action" : {
+          "confirm" : "确定",
+          "cancel" : "取消"
+        }
+      }
+    },
+    "action": {
+      "cancel": "取消",
+      "confirm": "确定",
+      "delete": "删除",
+      "confirm_delete": "确定删除",
+      "confirm_delete_message": "你是否确定删除此纪录？",
+      "loading_msg": "加载中...",
+      "transaction_loading_msg": "交易进行中，请稍候。",
+      "miniapp_update": {
+          "success_title": "更新提示",
+          "success_content": "必需更新小程序的版本才能继续使用, 请重启应用。",
+          "fail_title": "更新失敗",
+          "fail_content": "更新时发生错误。"
+      }
+    },
+    "maintenance": "系统维护中",
+    "update_fail": "更新失败",
+    "reference_no": "参考编号：",
+    "welcome":"欢迎到访{{shop_name}}商店",
+    "alipay_name":{
+      "alipayHK":"AlipayHK",
+      "alipay":"支付宝"
+    },
+    "pug": {
+      "partial": {
+        "index": {
+          "no_result":"暂未有任何商品,敬请期待",
+          "inactive": "已下架",
+          "sold": "售罄",
+          "evoucher": "电子礼券",
+          "shop_btn":{
+            "shop_info":"商店介绍"
+          },
+          "shop_info": {
+              "title": "商店介紹",
+              "name": "商户名称：",
+              "phone": "联络电话：",
+              "email": "电邮地址："
+          }
+        },
+        "index_details": {
+          "evoucher": "电子礼券",
+          "add_success": "加入购物车成功",
+          "max": "一张订单中最多只可选购{{max_qty}}件",
+          "product_specification": "产品规格",
+          "product_description": "产品介绍",
+          "product_terms": "使用须知",
+          "product_points": "适用门店",
+          "add_to_cart": "加入购物车",
+          "buy_it_now": "立即购买",
+          "tab_bar_home":"首页",
+          "tab_bar_cart":"购物车",
+          "sold": "售罄",
+          "not_found": "请选购其他商品。",
+          "prd_sold_title": "请选购其他商品。"
+        },
+        "cart": {
+          "quantity": "数量：",
+          "remove_confirm_title": "确定移除？",
+          "remove_confirm": "货品将从购物车中移除",
+          "no_product": "购物车暂时未有任何货品",
+          "cart_list_digital_title":"电子礼券",
+          "checkout": "确认订单",
+          "tnc1": "以上产品由商户出售及提供，{{Alipay}}对该等产品的质素及供应量恕不负责。购买前请参阅商户的条款及细则。",
+          "tnc2": "产品一经购买不设退换货。",
+          "total": "合计:",
+          "total_remark": "*未含运费",
+          "see_hot_product": "看看热门商品",
+          "continues_shopping": "继续选购 {{shop_name}} 商店",
+          "total_discount": "共减: ",
+          "promo_box": {
+              "e_stamp": {
+                  "title": "印花优惠:",
+                  "msg_num":"额外消费多HKD{{extra_money}}，可获AlipayHK印花{{stamp_num}}个。",
+                  "msg_done":"你的消费满HKD{{money}}，可获AlipayHK印花{{stamp_num}}个。",
+                  "remark": "* 印花派送以你的最终订单金额为准"
+              },
+              "logictic": {
+                  "title": "运费安排:",
+                  "msg_courier":"送货: 满HKD{{amount}}免运，额外选购多HKD{{extra_money}}可享免费送货",
+                  "msg_courier_done":"送货: 已满HKD{{amount}}免运金额，可享免费送货",
+                  "msg_courier_to_pay":"送货: 货到付款",
+                  "msg_courier_free":"送货: 免费送货",
+                  "msg_courier_other":"送货: ",
+                  "msg_pickup":"自取: 免费自取"
+              },
+              "promotion_selected_section":{
+                "promotion_title":"优惠",
+                "promotion_date_range":"有效期:",
+                "promotion_promo_code":"优惠券",
+                "promotion_shop_promo":"全店优惠",
+                "warn_below_min":"需达指定金额",
+                "warn_only_one_choose":"不可与其他优惠同时使用",
+                "warn_locked":"未可用"
+              }
+          }
+        },
+        "check_out": {
+          "input_contact_information": "請填寫聯絡人及收貨資料",
+          "contact_information": "聯絡人資料",
+          "delivery_method": "收貨方法", 
+          "courier_information": "送貨地點",
+          "courier_date": "送貨日期",
+          "courier_time": "送貨時間",
+          "pickup_information": "取貨地點",
+          "pickup_date": "取貨日期",
+          "pickup_time": "取貨時間",
+          "branches_phone": "分店電話：",
+          "pickup_address": "取貨地址",
+          "pickup_dates": "取貨日期",
+          "title_list": {
+            "mr": "先生",
+            "miss": "小姐",
+            "mrs": "女士"
+          },
+          "title_code": {
+            "mr": "mr",
+            "miss": "miss",
+            "mrs": "mrs"
+          },
+          "remark": "其他訊息"
+        },
+        "customer_info": {
+          "please_input_contact_information": "请填写联络人资料",
+          "lastname": "姓氏",
+          "firstname": "名字",
+          "title": "称谓",
+          "phone": "电话号码",
+          "email": "电邮地址",
+          "please_choose_delivery_method": "请选择收货方法",
+          "PICKUP": "自行取货",
+          "COURIER": "送货",
+          "please_input_pickup_info": "请填写自行取货资料",
+          "please_input_courier_info": "请填写送货资料",
+          "pickup_address": "取货地点",
+          "pickup_date": "取货日期",
+          "pickup_time": "取货时间",
+          "please_select_branches": "请选择分店",
+          "address": "地址：",
+          "branches_phone": "分店电话：",
+          "pickup_terms_title": "取货需知",
+          "delivery_date": "送货日期",
+          "delivery_time": "送货时间",
+          "please_select_dates": "请选择日期",
+          "please_select_time": "请选择时间",
+          "please_pickup_within": "请于取货当天起计7天内取货",
+          "please_input_courier_address": "送货地址",
+          "please_input": "请填写",
+          "product_section_title":"订单内容",
+          "digital_product_title":"电子礼券",
+          "agreement_start": "{{shop_name}} 商店 ",
+          "agreement_tnc": "条款及细则",
+          "agreement_and": "及",
+          "agreement_privacy_policy": "私隐政策",
+          "agreement_end": "",
+          "courier_terms_title": "送货需知",
+          "next": "前往付款",
+          "title_list": {
+            "mr": "先生",
+            "miss": "小姐",
+            "mrs": "女士"
+          },
+          "shpping_prd_total": "商品总额",
+          "shpping_cost": "运费",
+          "shpping_discount": "运费优惠",
+          "shpping_status": {
+              "free":"免费",
+              "to_pay":"货到付款"
+          },
+          "shpping_total": "付款总额",
+          "remark": "其他訊息(可選填)",
+          "logictic_warning": {
+              "COURIER": "部分商品未能支援送货",
+              "PICKUP": "部分商品未能支援自行取货"
+          },
+          "province_city_district": "省/市/地区",
+          "province": "省",
+          "city": "市",
+          "district": "地区",
+          "please_select_province": "请选择省",
+          "please_select_city": "请选择市",
+          "please_select_district": "请选择地区",
+          "please_select_province_city_district": "请选择省/市/地区"
+        },
+        "order": {
+          "no_order": "暂未有订单",
+          "item_product_1": "等",
+          "item_product_2": "件商品",
+          "item_product_2_multi": "件商品",
+          "order_amount": "订单金额:",
+          "order_id": "订单编号：",
+          "pickup_date": "取货日期：",
+          "order_status": {
+            "COURIER": {
+              "PAID_PENDING": "待送货",
+              "PAID_SHIPMENT_WAIT_FOR_PICKUP": "待发货",
+              "PAID_SHIPMENT_IN_TRANSIT": "运输中",
+              "PAID_SHIPMENT_IN_DELIVERY": "派送中",
+              "PAID_SHIPMENT_ARRIVED": "已到达",
+              "PAID_SHIPMENT_CUSTOMER_RECEIVED": "已取货",
+              "PAID_SHIPMENT_CANCELED": "送货已取消",
+              "PAID_INCOMPLETE": "待送货",
+              "PAID_REDEEMED": "已取货",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            },
+            "PICKUP": {
+              "PAID_PENDING": "待取货",
+              "PAID_INCOMPLETE": "待取货",
+              "PAID_REDEEMED": "已取货",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            },
+            "ONLINE": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            },
+            "EMAIL": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            }
+          },
+          "promo_apply_btn":"立即使用",
+          "promo_apply_btn_locked":"未可用",
+          "promo_apply_btn_redeem":"已使用",
+          "promo_apply_btn_expiry":"已过期",
+          "promo_range":"有效期:",
+          "has_more": "显示更多",
+          "tab_title": {
+              "normal_prd_list": "我的订单",
+              "digital_prd_list": "电子礼券",
+              "ecoupon_list":"优惠券"
+          },
+          "evoucher_active_title":"可用电子礼券",
+          "evoucher_inactive_title":"失效 / 转赠电子礼券",
+          "evoucher_active_no":"暂时未有可用电子礼券",
+          "evoucher_inactive_no":"暂时未有失效电子礼券",
+          "ecoupon_active_title":"可用优惠券",
+          "ecoupon_inactive_title":"失效优惠券",
+          "ecoupon_active_no":"暂时未有可用优惠券",
+          "ecoupon_inactive_no":"暂时未有失效优惠券",
+          "redeem_period":"有效期限：",
+          "state_inactive":{
+            "AVAILABLE":"已过期",
+            "ALLOCATED":"已过期",
+            "REDEEMED":"已使用",
+            "VOID":"已失效"
+          }
+        },
+        "order_details": {
+          "order_id": "订单编号：",
+          "contact_information": "联络人资料",
+          "contact_name": "姓名",
+          "contact_phone": "电话号码",
+          "contact_email": "电邮地址",
+          "pickup_information": "取货资料",
+          "pickup_address": "取货地址",
+          "pickup_date": "取货日期",
+          "pickup_time": "取货时间",
+          "pickup_site_phone": "分店电话：",
+          "courier_information": "送货资料",
+          "courier_address": "送货地址",
+          "courier_date": "送货日期",
+          "courier_time": "送货时间",
+          "courier_name": "送货服务商",
+          "courier_tracking_no": "物流单号",
+          "courier_tracking_no_copy": "复制",
+          "courier_tracking_link": "追踪物流网址",
+          "courier_tracking_link_click": "复制",
+          "shop_details_section": {
+            "title":"如需查询取货事宜，请透过以下方式联络商户：",
+            "shop_no_label":"联络电话：",
+            "shop_mail_label":"电邮地址："
+          },
+          "get_qrcode": "取货二维码",
+          "view_evoucher_code":"查看电子礼券",
+          "back": "返回",
+          "quantity_unit": "数量：",
+          "attributes": "产品规格",
+          "order_status": {
+            "COURIER": {
+              "PAID_PENDING": "待送货",
+              "PAID_SHIPMENT_WAIT_FOR_PICKUP": "待发货",
+              "PAID_SHIPMENT_IN_TRANSIT": "运输中",
+              "PAID_SHIPMENT_IN_DELIVERY": "派送中",
+              "PAID_SHIPMENT_ARRIVED": "已到达",
+              "PAID_SHIPMENT_CUSTOMER_RECEIVED": "已取货",
+              "PAID_SHIPMENT_CANCELED": "送货已取消",
+              "PAID_INCOMPLETE": "待送货",
+              "PAID_REDEEMED": "已取货",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            },
+            "PICKUP": {
+              "PAID_PENDING": "待取货",
+              "PAID_INCOMPLETE": "待取货",
+              "PAID_REDEEMED": "已取货",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            },
+            "ONLINE": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            },
+            "EMAIL": {
+              "PAID_PENDING": "已付款",
+              "PAID_INCOMPLETE": "已付款",
+              "PAID_REDEEMED": "已付款",
+              "REFUNDED": "已退款",
+              "CANCELED": "已取消",
+              "OPEN": "处理中"
+            }
+          },
+          "remark": "其他讯息",
+          "digital_title":"电子礼券",
+          "shpping_total": "付款总额",
+          "shpping_discount": "运费优惠",
+          "shpping_prd_total": "商品总额",
+          "shop_discount": "全店优惠",
+          "shop_discount_promocode": "优惠券",
+          "shpping_cost": "运费",
+          "shpping_status": {
+              "free":"免费",
+              "to_pay":"货到付款"
+          },
+          "shop_link_btn":"再次惠顾 {shop_name} 商店"
+        },
+        "order_voucher_details": {
+          "code_copy_btn": "复制",
+          "code_copied_msg": "已复制",
+          "tnc":"使用须知",
+          "redeem_point":"适用门店",
+          "popup_guide":"电子礼券教学指南",
+          "redeem_period":"有效期限：",
+          "state_inactive":{
+            "REDEEMED":"礼券已换领",
+            "VOID":"礼券已取消",
+            "REFUNDED":"礼券已退款",
+            "AVAILABLE":"礼券已过期"
+          },
+          "code_share_btn": "WhatsApp 分享",
+          "code_confirm_btn": "返回",
+          "code_share": "转赠电子礼券",
+          "cancel_share": "取消转赠",
+          "transferrableLink": "转赠链接",
+          "transferrableLinkSuccess": "成功发起转赠",
+          "transferrableLinkDescription": "任何人收到此链接都可收取你的电子礼券。",
+          "status": {
+            "transferring": "已发起转赠",
+            "page_transferring": "已发起转赠",
+            "transferred": "完成转赠"
+          },
+          "sharing_button" : {
+            "copy": "复制",
+            "share": "分享",
+            "cancel": "取消转赠"
+          },
+          "cancel_function_content": "礼券领取时间: ",
+          "code_transferred_content": "完成转赠好友",
+          "cancelTitle": "你确定要取消吗?",
+          "cancelContent": "赠送链接将会失效, 你将会重新得到礼券码",
+          "transferExpiry": "转赠链接失效于",
+          "code_link_expired_title": "转赠不成功",
+          "code_link_expired_content": "(无人领取)",
+          "code_link_latest_share_time": "最近转赠时间:"
+        },
+        "code_share": {
+          "couponTransferable": "可转赠好友",
+          "mkt_couponTransferable" : "可转赠好友",
+          "share_condition": "使用条件: ",
+          "receive_status": "你已获赠一张电子礼券！",
+          "limit_share_remark": "你只有最后一次发卡转赠的机会; 如果发起后没有在有效期限内被领取，礼券将不能再被转赠。",
+          "share_rule": 
+          [
+            [
+              {
+                "text":"确定「发起转赠」后，请把链接分享给好友，並通知好友在接收后"
+              },
+              {
+                "text" : " {{share_expiry_days}}天 ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text" : "内点击链接，否则将无法领取"
+              }
+            ],
+            [
+              {
+                "text" : "第一个点击分享链接，並确定领取的好友，将会获得礼券"
+              }
+            ],
+            [
+              {
+                "text" : "发起转赠后，你的礼券将会失效；如"
+              },
+              {
+                "text" : " {{share_expiry_days}}天 ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text" : "内无人领取， 或你选择「取消转赠」，礼券将会重新发回至你的「可用电子礼券」"
+              }              
+            ],
+            [
+              {
+                "text" : "你有"
+              },
+              {
+                "text" : " {{share_limit}}次 ",
+                "textStyle" : "colorText"
+              },
+              {
+                "text": "「取消转赠」的机会，到达上限后将不可再被转赠"
+              }                            
+            ]
+          ],
+          "confirm": "发起转赠",
+          "confirm_receive": "确定领取礼券",
+          "use_shop": "适用门店",
+          "receive_tc": "使用条款及细则",
+          "receive_success": "你已成功领取电子礼券！",
+          "view_coupon": "立即查看"
+        },
+        "pickup_code": {
+          "show_code": "取货时请出示给店员",
+          "back": "返回"
+        },
+        "thank_you":{
+          "finish_payment": "完成订购，多谢惠顾本店服务",
+          "order_id": "订单编号：",
+          "transaction_id": "AlipayHK交易编号：",
+          "transaction_date": "缴费日期：",
+          "pay_amount": "已付金额：",
+          "done": "完成",
+          "back_landing": "返回 {shop_name}商店"
+        },
+        "load_more": {
+          "load_more": "显示更多"
+        },
+        "popup": {
+          "popup_quantity_not_available_soldout": "以下产品已售罄: ",
+          "popup_quantity_not_available_separtor": "、",
+          "popup_quantity_not_available_remove": "。请先移除以上产品再前往付款。",
+          "popup_fail_title_default": "服务暂时未能提供",
+          "popup_payment_fail_title": "交易未能成功",
+          "popup_payment_fail_content": "未能成功落单，请重试。",
+          "popup_customer_info_wrong_phone": "请填写正确的电话号码。",
+          "popup_customer_info_wrong_email": "请填写正确的电邮地址。",
+          "popup_customer_info_delivery_address": "请填写送货地址",
+          "popup_customer_info_missing_field": "请确保你已输入所有资料。",
+          "popup_customer_info_missing_tnc": "在前往下一步前，请同意并接受条款及细则及私隐政策。",
+          "popup_transaction_error_title": "交易异常",
+          "popup_transaction_error_content": "请检视订单纪录确认是否已成功落单；\n或与客户服务联络。",
+          "popup_guide":{
+            "title":"电子礼券查看方法",
+            "details":[
+                {
+                    "guide":"电子礼券储存至好赏买小程序「我的账户」> 「电子礼券」",
+                    "guide_image":"using-step-1-tc.png"
+                }, {
+                    "guide":"在Alipay 「卡包」> 「优惠券」亦可查看电子礼券",
+                    "guide_image":"using-step-2.png"
+                }
+            ],
+            "confirm":"确定"
+        }
+      },
+        "category":{
+          "item_all":{
+            "title":"全部"
+          }
+        },
+        "tab_bar": {
+          "defaultBackground" : "#ffffff",
+          "textColor" : "#888888",
+          "selectedColor" : "#1b80cf",
+          "itemArray" : [
+          {
+            "pagePath":"pages/market-list/market-list",
+            "icon": "/static/img/common/tab-home.png",
+            "activeIcon": "/static/img/common/tab-home-active.png",
+            "name": "首页"
+          },
+          {
+            "pagePath":"pages/shop/shop",
+            "icon": "/static/img/common/tab-shop.png",
+            "activeIcon": "/static/img/common/tab-shop-active.png",
+            "name": "商店"
+          },
+          {
+            "pagePath":"pages/cart/cart",
+            "icon": "/static/img/common/tab-cart.png",
+            "activeIcon": "/static/img/common/tab-cart-active.png",
+            "name": "购物车"
+          },
+          {
+            "pagePath":"pages/order/order",
+            "icon": "/static/img/common/tab-my.png",
+            "activeIcon": "/static/img/common/tab-my-active.png",
+            "name": "我的"
+          }
+        ]},
+        "single_shop_tab_bar" : {
+          "defaultBackground" : "#ffffff",
+          "textColor" : "#888888",
+          "selectedColor" : "#1b80cf",
+          "itemArray" : [
+            {
+              "pagePath": "pages/shop-index/shop-index",
+              "icon": "/static/img/common/tab-home.png",
+              "activeIcon": "/static/img/common/tab-home-active.png",
+              "params": "shopid=C2040865",
+              "name": "首页"
+            },
+            {
+              "pagePath" : "pages/cart/cart",
+              "icon": "/static/img/common/tab-cart.png",
+              "activeIcon": "/static/img/common/tab-cart-active.png",
+              "name": "购物车"
+            },
+            {
+              "pagePath":"pages/order/order",
+              "icon": "/static/img/common/tab-my.png",
+              "activeIcon": "/static/img/common/tab-my-active.png",
+              "name": "我的"
+            }
+          ]
+        },
+        "footer": {
+          "cod": "Powered by COD Payment Limited",
+          "tnc": "好赏买商户平台条款及细则",
+          "privacy_policy": "私隐政策",
+          "eshoperx":"Powered by 好赏买商户平台"
+        }
+      }
+    }
+  }
+}

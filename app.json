@@ -1,0 +1,32 @@
+{
+    "pages": [
+        "pages/market-list/market-list",
+        "pages/shop/shop",
+        "pages/cart/cart",
+        "pages/order/order",
+        "pages/test/test"
+    ],
+    "tabBar": {
+        "textColor": "#888888",
+        "selectedColor": "#1b80cf",
+        "backgroundColor": "#ffffff",
+        "items": [
+            {
+                "pagePath": "pages/market-list/market-list",
+                "name": ""
+            },
+            {
+                "pagePath": "pages/shop/shop",
+                "name": ""
+            },
+            {
+                "pagePath": "pages/cart/cart",
+                "name": ""
+            },
+            {
+                "pagePath": "pages/order/order",
+                "name": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "allowsBounceVertical": "NO",
+  "usingComponents": {
+    "mp_container": "mp-lib/mp/mp_container/mp_container"
+  },
+  "styleIsolation": "apply-shared"
+}

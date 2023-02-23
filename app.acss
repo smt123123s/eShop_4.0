@@ -1,0 +1,8 @@
+page {
+  background: #F7F7F7;
+  width: 100%;
+  position: relative;
+}
+page .mp_container_outer .mp_container.mp_cp {
+  font-family: PingFangHK-Regular, "Microsoft JhengHei", "Heiti TC", sans-serif;
+}
