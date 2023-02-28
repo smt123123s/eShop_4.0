@@ -1,10 +1,10 @@
-const setGlobalData = (data, key, value, log=false) => {
+const setGlobalData = (data, key, value, log = false) => {
     let isNew = true;
     if (data.hasOwnProperty(key)) {
         isNew = false;
-    }
+    };
     data[key] = value;
-    if(log) {
+    if (log) {
         console.log(
             "Global data",
             isNew ? "add new" : "updated",
@@ -35,7 +35,7 @@ const preventDoubleClick = (func, timeout = 250) => {
         if (now > last + timeout) {
             last = now;
             return func.apply(this, args);
-        }
+        };
     };
 };
 
@@ -48,15 +48,25 @@ const preventDoublePromise = (func, timeout = 250) => {
                 .then(() => {
                     if (timeout >= 0) {
                         setTimeout(() => _promise = null, timeout)
-                    }
+                    };
                 })
                 .catch(() => {
                     _promise = null
                 }
                 );
-        }
+        };
         return _promise;
     };
+};
+
+const ObjectToQueryString = (query) => {
+    let filterArray = [];
+    Object.keys(query).forEach(key => {
+        if (query[key]) {
+            filterArray.push(encodeURIComponent(key) + "=" + encodeURIComponent(query[key]));
+        };
+    });
+    return filterArray.join("&");
 };
 
 module.exports = {
@@ -64,5 +74,6 @@ module.exports = {
     removeGlobalData,
     getExistingStorageValueByKey,
     preventDoubleClick,
-    preventDoublePromise
+    preventDoublePromise,
+    ObjectToQueryString
 }

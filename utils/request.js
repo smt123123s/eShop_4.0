@@ -1,3 +1,5 @@
+const config = require("/utils/config.js").initConfig();
+
 const _apiRequest = (url, method, data) => {
     return new Promise((resolve, reject) => {
         my.request({
@@ -25,6 +27,25 @@ const _apiRequest = (url, method, data) => {
     });
 };
 
-/**
- * API LIST
- */
+/******************* API List  **************************/
+// apply page: market-list page
+const marketLanding = () => {
+    return _apiRequest(
+        config.apiList.marketLanding, "GET", {}
+    );
+};
+
+const categoryList = (category_type) => {
+    const value = {
+        "category_type": category_type
+    };
+    const url = `${config.apiList.categoryList}?${common.ObjectToQueryString(value)}`;
+    return _apiRequest(
+        url, "GET", {}
+    );
+};
+
+module.exports = {
+    marketLanding,
+    categoryList
+}
