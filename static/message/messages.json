@@ -671,32 +671,32 @@
           }
         },
         "tab_bar": {
+          "defaultBackground" : "#ffffff",
           "textColor" : "#888888",
           "selectedColor" : "#1b80cf",
-          "defaultBackground" : "#ffffff",
           "itemArray" : [
           {
             "pagePath":"pages/market-list/market-list",
-            "icon": "/static/img/common/tab-home.png",
-            "activeIcon": "/static/img/common/tab-home-active.png",
+            "icon": "/assets/img/common/tab-home.png",
+            "activeIcon": "/assets/img/common/tab-home-active.png",
             "name": "Home"
           },
           {
             "pagePath":"pages/shop/shop",
-            "icon": "/static/img/common/tab-shop.png",
-            "activeIcon": "/static/img/common/tab-shop-active.png",
+            "icon": "/assets/img/common/tab-shop.png",
+            "activeIcon": "/assets/img/common/tab-shop-active.png",
             "name": "Shop"
           },
           {
             "pagePath":"pages/cart/cart",
-            "icon": "/static/img/common/tab-cart.png",
-            "activeIcon": "/static/img/common/tab-cart-active.png",
+            "icon": "/assets/img/common/tab-cart.png",
+            "activeIcon": "/assets/img/common/tab-cart-active.png",
             "name": "Cart"
           },
           {
             "pagePath":"pages/order/order",
-            "icon": "/static/img/common/tab-my.png",
-            "activeIcon": "/static/img/common/tab-my-active.png",
+            "icon": "/assets/img/common/tab-my.png",
+            "activeIcon": "/assets/img/common/tab-my-active.png",
             "name": "My account"
           }]
         },
@@ -707,21 +707,21 @@
           "itemArray" : [
             {
               "pagePath": "pages/shop-index/shop-index",
-              "icon": "/static/img/common/tab-home.png",
-              "activeIcon": "/static/img/common/tab-home-active.png",
+              "icon": "/assets/img/common/tab-home.png",
+              "activeIcon": "/assets/img/common/tab-home-active.png",
               "params": "shopid=C2040865",
               "name": "Home"
             },
             {
               "pagePath" : "pages/cart/cart",
-              "icon": "/static/img/common/tab-cart.png",
-              "activeIcon": "/static/img/common/tab-cart-active.png",
+              "icon": "/assets/img/common/tab-cart.png",
+              "activeIcon": "/assets/img/common/tab-cart-active.png",
               "name": "Cart"
             },
             {
               "pagePath":"pages/order/order",
-              "icon": "/static/img/common/tab-my.png",
-              "activeIcon": "/static/img/common/tab-my-active.png",
+              "icon": "/assets/img/common/tab-my.png",
+              "activeIcon": "/assets/img/common/tab-my-active.png",
               "name": "My account"
             }
           ]
@@ -876,7 +876,7 @@
     "pug": {
       "partial": {
         "search": {
-          "search_all":"搜尋商品 / 商店",
+          "search_all":"搜尋商品/ 商店",
           "search_product":"搜尋商品",
           "search_shop":"搜尋商店",
           "result_suggest_products_title":"熱賣商品​",
@@ -1413,26 +1413,26 @@
           "itemArray" : [
           {
             "pagePath":"pages/market-list/market-list",
-            "icon": "/static/img/common/tab-home.png",
-            "activeIcon": "/static/img/common/tab-home-active.png",
+            "icon": "/assets/img/common/tab-home.png",
+            "activeIcon": "/assets/img/common/tab-home-active.png",
             "name": "首頁"
           },
           {
             "pagePath":"pages/shop/shop",
-            "icon": "/static/img/common/tab-shop.png",
-            "activeIcon": "/static/img/common/tab-shop-active.png",
+            "icon": "/assets/img/common/tab-shop.png",
+            "activeIcon": "/assets/img/common/tab-shop-active.png",
             "name": "商店"
           },
           {
             "pagePath":"pages/cart/cart",
-            "icon": "/static/img/common/tab-cart.png",
-            "activeIcon": "/static/img/common/tab-cart-active.png",
+            "icon": "/assets/img/common/tab-cart.png",
+            "activeIcon": "/assets/img/common/tab-cart-active.png",
             "name": "購物車"
           },
           {
             "pagePath":"pages/order/order",
-            "icon": "/static/img/common/tab-my.png",
-            "activeIcon": "/static/img/common/tab-my-active.png",
+            "icon": "/assets/img/common/tab-my.png",
+            "activeIcon": "/assets/img/common/tab-my-active.png",
             "name": "我的"
           }
         ]},
@@ -1443,21 +1443,21 @@
           "itemArray" : [
             {
               "pagePath": "pages/shop-index/shop-index",
-              "icon": "/static/img/common/tab-home.png",
-              "activeIcon": "/static/img/common/tab-home-active.png",
+              "icon": "/assets/img/common/tab-home.png",
+              "activeIcon": "/assets/img/common/tab-home-active.png",
               "params": "shopid=C2040865",
               "name": "首頁"
             },
             {
               "pagePath" : "pages/cart/cart",
-              "icon": "/static/img/common/tab-cart.png",
-              "activeIcon": "/static/img/common/tab-cart-active.png",
+              "icon": "/assets/img/common/tab-cart.png",
+              "activeIcon": "/assets/img/common/tab-cart-active.png",
               "name": "購物車"
             },
             {
               "pagePath":"pages/order/order",
-              "icon": "/static/img/common/tab-my.png",
-              "activeIcon": "/static/img/common/tab-my-active.png",
+              "icon": "/assets/img/common/tab-my.png",
+              "activeIcon": "/assets/img/common/tab-my-active.png",
               "name": "我的"
             }
           ]
@@ -2059,26 +2059,26 @@
           "itemArray" : [
           {
             "pagePath":"pages/market-list/market-list",
-            "icon": "/static/img/common/tab-home.png",
-            "activeIcon": "/static/img/common/tab-home-active.png",
+            "icon": "/assets/img/common/tab-home.png",
+            "activeIcon": "/assets/img/common/tab-home-active.png",
             "name": "首页"
           },
           {
             "pagePath":"pages/shop/shop",
-            "icon": "/static/img/common/tab-shop.png",
-            "activeIcon": "/static/img/common/tab-shop-active.png",
+            "icon": "/assets/img/common/tab-shop.png",
+            "activeIcon": "/assets/img/common/tab-shop-active.png",
             "name": "商店"
           },
           {
             "pagePath":"pages/cart/cart",
-            "icon": "/static/img/common/tab-cart.png",
-            "activeIcon": "/static/img/common/tab-cart-active.png",
+            "icon": "/assets/img/common/tab-cart.png",
+            "activeIcon": "/assets/img/common/tab-cart-active.png",
             "name": "购物车"
           },
           {
             "pagePath":"pages/order/order",
-            "icon": "/static/img/common/tab-my.png",
-            "activeIcon": "/static/img/common/tab-my-active.png",
+            "icon": "/assets/img/common/tab-my.png",
+            "activeIcon": "/assets/img/common/tab-my-active.png",
             "name": "我的"
           }
         ]},
@@ -2089,21 +2089,21 @@
           "itemArray" : [
             {
               "pagePath": "pages/shop-index/shop-index",
-              "icon": "/static/img/common/tab-home.png",
-              "activeIcon": "/static/img/common/tab-home-active.png",
+              "icon": "/assets/img/common/tab-home.png",
+              "activeIcon": "/assets/img/common/tab-home-active.png",
               "params": "shopid=C2040865",
               "name": "首页"
             },
             {
               "pagePath" : "pages/cart/cart",
-              "icon": "/static/img/common/tab-cart.png",
-              "activeIcon": "/static/img/common/tab-cart-active.png",
+              "icon": "/assets/img/common/tab-cart.png",
+              "activeIcon": "/assets/img/common/tab-cart-active.png",
               "name": "购物车"
             },
             {
               "pagePath":"pages/order/order",
-              "icon": "/static/img/common/tab-my.png",
-              "activeIcon": "/static/img/common/tab-my-active.png",
+              "icon": "/assets/img/common/tab-my.png",
+              "activeIcon": "/assets/img/common/tab-my-active.png",
               "name": "我的"
             }
           ]
